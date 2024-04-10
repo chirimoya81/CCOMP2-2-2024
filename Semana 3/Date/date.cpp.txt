@@ -1,0 +1,17 @@
+#include <iostream>
+#include "Date.h"
+
+using namespace std;
+
+int main() {
+    Date fecha1{31, 1, 2020};
+    fecha1.displayDate();
+
+    Date fecha2{9, 11, 2001};
+    fecha2.displayDate();
+
+    Date fecha3{20, 50, 2001};
+    fecha3.displayDate();
+
+    return 0;
+}
